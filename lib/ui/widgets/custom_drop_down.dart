@@ -11,11 +11,11 @@ class CustomDropDownMenu extends StatefulWidget {
 
 
   const CustomDropDownMenu({
-    Key? key,
+    super.key,
     required this.text,
     required this.items,
     required this.onChanged, required this.textOne,
-  }) : super(key: key);
+  });
 
   @override
   State<CustomDropDownMenu> createState() => _CustomDropDownMenuState();

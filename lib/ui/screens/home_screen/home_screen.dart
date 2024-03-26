@@ -2,6 +2,7 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:caiman_golf/core/constants/const_colors.dart';
 import 'package:caiman_golf/ui/screens/tabs/events_tab.dart';
+import 'package:caiman_golf/ui/screens/tabs/home_event.dart';
 import 'package:caiman_golf/ui/screens/tabs/invite_tab.dart';
 import 'package:caiman_golf/ui/screens/tabs/play_tab.dart';
 import 'package:caiman_golf/ui/screens/tabs/setting_tab.dart';
@@ -164,7 +165,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
               width: 100.h,
               height: 100.h,
               child: menuProvider.indexTab == 0
-                  ?  const EventsTab()
+                  ?   HomeEvent()
                   : menuProvider.indexTab == 1
                   ? const StatsTab()
                   : menuProvider.indexTab == 2

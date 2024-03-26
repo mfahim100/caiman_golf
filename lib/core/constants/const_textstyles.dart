@@ -50,4 +50,36 @@ class ConstTextStyles {
   );
 
 
+  ///play Tab
+  static var roundSetup =  GoogleFonts.poppins(
+      fontSize: 19.sp,
+      decoration: TextDecoration.none,
+      color: Colors.black,
+    fontWeight:FontWeight.bold
+  );
+
+  static var player =  GoogleFonts.poppins(
+      fontSize: 16.sp,
+      decoration: TextDecoration.none,
+      color: Colors.grey,
+
+  );
+
+  static var highland =  GoogleFonts.poppins(
+    fontSize: 16.sp,
+    decoration: TextDecoration.none,
+    color: Colors.black,
+  );
+
+  static var highlandWhite =  GoogleFonts.poppins(
+    fontSize: 14.sp,
+    decoration: TextDecoration.none,
+    color: Colors.grey,
+  );
+
+
+
+
+
+
 }

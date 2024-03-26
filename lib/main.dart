@@ -1,5 +1,6 @@
 import 'package:caiman_golf/core/providers/menu_provider.dart';
-import 'package:caiman_golf/ui/screens/splash_screen/splash_screen.dart';
+import 'package:caiman_golf/ui/screens/auth_screens/sign_up_screen.dart';
+import 'package:caiman_golf/ui/screens/tabs/events_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -29,8 +30,10 @@ class MyApp extends StatelessWidget {
               useMaterial3: true,
             ),
             home:
-            // const SignUpScreen()
-            const SplashScreen()
+                // const EventsTab()
+
+            const SignUpScreen()
+            // const SplashScreen()
           ),
         );
       },
